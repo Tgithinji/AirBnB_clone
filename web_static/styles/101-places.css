@@ -1,9 +1,8 @@
 .places {
 	display: grid;
-	grid-template-columns: repeat(4, 200px);
+	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 80px auto auto;
-	justify-content: space-around;
-	gap: 10px;
+	justify-content: center;
 }
 
 .places h1 {
