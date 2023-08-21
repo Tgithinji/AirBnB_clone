@@ -1,0 +1,17 @@
+footer {
+	background-color: #FFFFFF;
+	height: 60px;
+	width: 100%;
+	border-top: 1px solid #CCCCCC;
+	position: sticky;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 768px) {
+	footer {
+		height: 40px;
+	}
+}

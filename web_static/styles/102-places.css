@@ -136,6 +136,12 @@ ul .tv {
 	font-size: 12px;
 }
 
+@media(max-width: 1000px) {
+	.places article {
+		max-width: 300px;
+	}
+}
+
 @media (max-width: 800px) {
 	.places {
 		display: flex;
